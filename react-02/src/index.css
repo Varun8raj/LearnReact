@@ -1,0 +1,121 @@
+*{
+  margin :0;
+  padding : 0;
+  box-sizing: border-box;
+  font-family: 'helvetica neue';
+}
+
+html,
+body
+{
+height: 100%;
+width: 100%;
+}
+
+.Parent
+{
+  min-height: 100vh;
+  min-width: 100vw;
+  background-color :hsl(0, 0%, 0%);
+  padding: 40px;
+  display: flex;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+.Card
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 350px;
+  width: 300px;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 25px;
+  padding: 30px;
+}
+
+.Card .Top
+{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Top img{
+  height : 70px;
+  width: 70px;
+  border-radius: 50%;
+  border: 1px solid hsl(0, 0%, 85%);
+  padding: 5px;
+}
+
+.Top button{
+  display: flex;
+  align-items: center;
+  padding: 2px 4px;
+  border: 1px solid hsl(0, 0%, 85%);
+  border-radius: 5px;
+  font-size: 15px;
+  gap: 2px;
+  background-color: transparent;
+  color: hsl(0, 0%, 69%);
+}
+
+.Bottom
+{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1.5px solid hsl(0, 0%, 85%);
+  padding-top: 10px;
+}
+
+.Center h3{
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.Center h3 span{
+  font-size: 11px;
+  font-weight: 400;
+  color: hsl(0, 0%, 50%);
+}
+
+.Center h3{
+  font-size: 20px;
+}
+
+.Center .Tag{
+  display: flex;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.Center .Tag h4{
+  font-size: 14px;
+  color: hsl(0, 0%, 15%);
+  background-color: hsl(0, 0%, 85%);
+  padding: 3px 6px;
+  font-weight: 400px;
+  border-radius: 6px;
+}
+
+.Bottom h3{
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.Bottom p{
+  font-size: 14px;
+  font-weight: 500;
+  color: hsl(0, 0%, 50%);
+}
+
+.Bottom button{
+  background-color: hsl(0, 0%, 5%);
+  color: hsl(0, 0%, 100%);
+  border-radius: 4px;
+  padding: 4px 8px;
+  border: none;
+}
