@@ -63,7 +63,3 @@ npm run preview
 ## 🎯 Purpose
 
 This project is part of my React learning journey and is intended for practice, experimentation, and improving frontend development skills.
-
----
-
-⭐ If you're also learning React, feel free to fork and experiment!
